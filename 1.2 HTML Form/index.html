@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    
+    <h1>My Bio Data</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+           <label for="First Name">First Name:</label>
+           <input type="text" id="First Name"  placeholder="First Name">
+
+           <label for="Last Name">Last Name:</label>
+           <input type="text" id="Last Name"  placeholder="Last Name">
+           <br>
+           <br>
+
+           Male:
+           <input type="radio" name="gender" >
+
+           Female:
+           <input type="radio" name="gender" >
+
+           Other:
+           <input type="radio" name="gender">
+           <br>
+           <br>
+
+           Date of Birth:
+           <input type="date">
+
+           <br>
+           <br>
+
+           Email:
+           <input type="email" placeholder="Enter Your Email">
+
+           <br>
+           <br>
+
+           Phone:
+           <input type="tel" placeholder="+91" maxlength="10">
+
+           <br>
+           <br>
+
+           Height:
+           <input type="tel" placeholder="Height in Feet" maxlength="4">
+
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Education</legend>
+
+            School Name:
+            <input type="text" placeholder="School Name">
+
+            <br>
+            <br>
+
+            Class:
+            <input type="text" maxlength="2" placeholder="Enter Class">
+
+            <br>
+            <br>
+
+
+            Stream:
+            <select>
+                <option>Stream</option>
+                <option>PCM</option>
+                <option>PCB</option>
+                <option>PCMB</option>
+                <option>Commerce</option>
+                <option>Arts</option>
+            </select>
+
+            <br>
+            <br>
+
+            Marksheet:
+            <input type="file">
+        
+        </fieldset>
+
+        <button>Submit</button>
+
+
+
+
+
+
+
+
+        
+    </form>
+
+
+</body>
+</html>
