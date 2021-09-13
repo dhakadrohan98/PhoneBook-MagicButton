@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    padding: 300px;
+    margin: 0;
+    background-image: url("../image/space.jpg");
+}
+
+button{
+    height: 35px;
+    width: 100px;
+    font-size: 14px;
+    padding: 7px;
+    margin-top: 130px;
+    margin-left: 450px;
+    display: flex;
+    justify-content: center;
+    color: orangered;
+    border-color: orangered;
+}
+
+button:hover{
+    transform: translateY(-5px);
+    transition-duration: 500ms;
+    color:black;
+    border-color: yellow;
+    box-shadow: 0px 5px 20px yellow;
+}
